@@ -5,14 +5,14 @@ A geomorphic enthalpy method: Description and application to the evolution
 of fluvial-deltas under sea-level cycles
 William Anderson, Jorge Lorenzo-Trueba, Vaughan Voller
 
-1. Intro
+Intro:
 The included code provides three scripts. The first is ‘Enthalpy_Code_Trajectories’ which plots 
 trajectories of the shoreline (SH) and alluvial-bedrock transition (ABT) for sea-level change of 
 the form Z=A*t^B where A and B are constants. Additionally, the function ‘NonlineSys’ 
 provides an analytical solution under sea-level change proportional to the square root of time and 
 the script ‘Enthalpy_Code_Movie’ creates a movie of the deltaic system as it grows.
 
-2. Code Description
+Code Description:
 The script ‘Enthalpy_Code_Trajectories’ takes 3 paramater inputs: Rab, A, and B. Rab is the 
 dimensionless parameter qin/(beta*nu), where qin=incoming sediment flux, beta = basement 
 slope, and nu = diffusivity. Rab is physically bounded by 0<Rab<1. A and B determine the 
